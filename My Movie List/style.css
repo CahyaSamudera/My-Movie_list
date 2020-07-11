@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: hotpink;
+  padding: 20px;
+}
+
+.container h2 {
+  color: #fff;
+}
+.container input,
+.add-movies input {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.container2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-movies {
+  padding: 20px 0;
+  background-color: indigo;
+  width: 100%;
+  color: fff;
+}
+
+.add-movies h2 {
+  color: #fff;
+}
+.add-movies button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  transition: transform 0.5s ease;
+}
+.add-movies button:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.container2 .list-movies {
+  padding: 20px 0 0;
+  background-color: burlywood;
+  width: 100%;
+  height: 70vh;
+}
+.container2 .list-movies h2 {
+  padding-bottom: 20px;
+}
+
+.container2 .list-movies ul {
+}
+
+.container2 .list-movies ul li {
+  list-style: none;
+  text-decoration: none;
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+.container2 .list-movies ul li .delete {
+  background-color: red;
+  padding: 4px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  padding: 20px 0;
+  border-top: 0;
+}
